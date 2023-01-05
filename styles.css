@@ -1,0 +1,75 @@
+body {
+  font-family: 'Outfit', sans-serif;
+  display: flex;
+  justify-content: center;
+  background-color: #D5E1EF;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 14rem;
+  width: 320px;
+  height: 497px;
+  left: 28px;
+  top: 85px;
+  background: #FFFFFF;
+  box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.0476518);
+  border-radius: 20px;
+}
+
+.card-img {
+  width: 288px;
+  height: 288px;
+  margin-top: 15px;
+  left: 44px;
+  top: 101px;
+  background: #2C7DFA;
+  border-radius: 10px;
+}
+
+.card-info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 288px;
+  height: 129px;
+}
+
+.title {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  height: 56px;
+  top: calc(50% - 56px/2 + 36.5px);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  text-align: center;
+  color: #1F314F;
+}
+
+.description {
+  height: 57px;
+  width: 250px;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  text-align: center;
+  color: #7D889E;
+}
+
+@media (max-width: 819px) {
+  .card {
+    margin-top: 4rem;
+  }
+}
+
+@media (max-width: 1281px) {
+  .card {
+    margin-top: 3rem;
+  }
+}
