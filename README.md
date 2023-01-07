@@ -4,10 +4,6 @@
 
 Thanks for checking out this front-end coding challenge.
 
-### Screenshot
+### Preview
 
-Desktop preview:
-![desktop-design](./design/desktop-design.jpg)
-
-Mobile preview:
-![desktop-design](./design/mobile-design.jpg)
+<img src="./design/mobile-design.jpg" width="350" height="585" />
